@@ -6,9 +6,9 @@ function handleClick() {
   const currentClass = title.className;
   // console.log(currentClass);
   if (currentClass !== CLICKED_CLASS) {
-    title.className = CLICKED_CLASS;
+    title.classList.add(CLICKED_CLASS);
   } else {
-    title.className = "";
+    title.classList.remove(CLICKED_CLASS);
   }
 }
 
