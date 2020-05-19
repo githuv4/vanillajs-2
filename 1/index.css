@@ -2,6 +2,12 @@ ul button {
   margin-right: 5px;
 }
 
+li {
+  display: inline;
+}
+span {
+  margin-right: 10px;
+}
 .form,
 .greetting {
   display: none;
